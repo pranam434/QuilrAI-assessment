@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Testing
+coverage/
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating system
+.DS_Store
+
+# Logs
+*.log
